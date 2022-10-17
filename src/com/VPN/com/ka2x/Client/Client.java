@@ -1,4 +1,4 @@
-package com.EECE412A3.Client;
+package com.ka2x.Client;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -26,10 +26,9 @@ import javax.crypto.spec.PBEKeySpec;
 import javax.crypto.spec.PBEParameterSpec;
 import javax.xml.bind.DatatypeConverter;
 
-import com.EECE412A3.CryptoInterface;
-import com.EECE412A3.DiffieHellmanHelper;
-import com.EECE412A3.GUIInterface;
-import com.EECE412A3.Helpers;
+import com.ka2x.DiffieHellmanHelper;
+import com.ka2x.GUIInterface;
+import com.ka2x.Helpers;
 
 
 public class Client implements ClientInterface {
